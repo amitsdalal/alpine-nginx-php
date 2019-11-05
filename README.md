@@ -16,10 +16,10 @@ Repository: https://github.com/amitsdalal/alpine-nginx-php
 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/amitdalal/alpine-nginx-php.svg)](https://hub.docker.com/r/amitdalal/alpine-nginx-php/)
-[![Docker image layers](https://images.microbadger.com/badges/image/amitdalal/alpine-nginx-php.svg)](https://microbadger.com/images/amitdalal/alpine-nginx-php)
+
 ![nginx 1.16.1](https://img.shields.io/badge/nginx-1.16-brightgreen.svg)
 ![php 7.3](https://img.shields.io/badge/php-7.3-brightgreen.svg)
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![License Apache](https://img.shields.io/badge/license-apache-blue.svg)
 
 
 ## Usage
