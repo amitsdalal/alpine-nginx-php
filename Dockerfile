@@ -1,6 +1,6 @@
-FROM alpine:3.10
+FROM alpine:latest
 LABEL Maintainer="Amit S Dalal <amit@amitdalal.me>" \
-      Description="Lightweight container with Nginx 1.16 & PHP-FPM 7.3 based on Alpine Linux."
+      Description="Lightweight container with Nginx 1.18 & PHP-FPM 7.4 based on Alpine Linux."
 
 # Install packages
 RUN apk --no-cache add php7 php7-fpm php7-mysqli php7-json php7-openssl php7-curl php7-bcmath php7-bz2 \
@@ -20,7 +20,7 @@ COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # Make sure files/folders needed by the processes are accessable when they run under the nobody user
 RUN chown -R nobody.nobody /run && \
   chown -R nobody.nobody /var/lib/nginx && \
-  chown -R nobody.nobody /var/tmp/nginx && \
+  mkdir /var/tmp/nginx && chown -R nobody.nobody /var/tmp/nginx && \
   chown -R nobody.nobody /var/log/nginx
 
 # Setup document root
