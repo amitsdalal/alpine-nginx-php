@@ -17,8 +17,8 @@ Repository: https://github.com/amitsdalal/alpine-nginx-php
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/amitdalal/alpine-nginx-php.svg)](https://hub.docker.com/r/amitdalal/alpine-nginx-php/)
 
-![nginx 1.16.1](https://img.shields.io/badge/nginx-1.16-brightgreen.svg)
-![php 7.3](https://img.shields.io/badge/php-7.3-brightgreen.svg)
+![nginx 1.18.x](https://img.shields.io/badge/nginx-1.18-brightgreen.svg)
+![php 7.4](https://img.shields.io/badge/php-7.4-brightgreen.svg)
 ![License Apache](https://img.shields.io/badge/license-apache-blue.svg)
 
 
